@@ -423,7 +423,7 @@ let options () =
 
     "-strict", Arg.Set strict_scope,
     " emulate block scope instead of function scope";
-    "-no_scrict", Arg.Clear strict_scope, 
+    "-no_strict", Arg.Clear strict_scope, 
     " use function scope (default)";
 
     "-filter", Arg.Set_int filter,
